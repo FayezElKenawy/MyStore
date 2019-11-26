@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Mystore.MVC.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyStore.Infra.Data;
 
 namespace Mystore.MVC
 {
@@ -38,6 +39,9 @@ namespace Mystore.MVC
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("MyStoreIdentityConnection")));
+            services.AddDbContext<MyStoreContext>(options=>
+            options.UseSqlServer(
+                Configuration.GetConnectionString("MyStoreConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
