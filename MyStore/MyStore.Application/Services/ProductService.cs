@@ -14,9 +14,12 @@ namespace MyStore.Application.Services
         {
             _productRepository = productRepository;
         }   
-        public IEnumerable<ProductViewModel> GetProducts()
+        public ProductViewModel GetProducts()
         {
-            throw new NotImplementedException();
+            return new ProductViewModel()
+            {
+                Products = _productRepository.GetProducts()
+            };
         }
     }
 }

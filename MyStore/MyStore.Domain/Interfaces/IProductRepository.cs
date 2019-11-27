@@ -7,6 +7,6 @@ namespace MyStore.Domain.Interfaces
 {
     public interface IProductRepository
     {
-        IEnumerable<Product> GetProducts();
+      IEnumerable< Product> GetProducts();
     }
 }
