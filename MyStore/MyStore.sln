@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mystore.MVC", "Mystore.MVC\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Domain", "MyStore.Domain\MyStore.Domain.csproj", "{322D4A9E-1D67-4430-A993-69C60DA446C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStore.Infra.Data", "MyStore.Infra.Data\MyStore.Infra.Data.csproj", "{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Infra.Data", "MyStore.Infra.Data\MyStore.Infra.Data.csproj", "{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStore.Application", "MyStore.Application\MyStore.Application.csproj", "{DD522FB7-E715-4F70-A1A0-2709C4B99649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD522FB7-E715-4F70-A1A0-2709C4B99649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD522FB7-E715-4F70-A1A0-2709C4B99649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD522FB7-E715-4F70-A1A0-2709C4B99649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD522FB7-E715-4F70-A1A0-2709C4B99649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{E26B5CB2-A1C2-46D5-BE12-842912C8BCC5} = {ACB74AAD-3715-4903-BEAB-4C123B2223CF}
 		{322D4A9E-1D67-4430-A993-69C60DA446C5} = {8C0B0C89-1B84-404D-89D2-73718717D31B}
 		{ADB1CF69-C76F-4CA4-ADB7-7A1562089400} = {1BD4C77B-3FCB-48AE-94CA-6CCA14DC116B}
+		{DD522FB7-E715-4F70-A1A0-2709C4B99649} = {340439C1-DE23-42FA-922C-12E8C1727627}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A5B9952-8D32-4B9C-87F1-F36FC84B3678}
