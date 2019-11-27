@@ -14,6 +14,7 @@ using Mystore.MVC.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyStore.Infra.Data;
+using MyStore.Infra.Ioc;
 
 namespace Mystore.MVC
 {
@@ -47,6 +48,7 @@ namespace Mystore.MVC
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,5 +79,10 @@ namespace Mystore.MVC
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DepenencyContainer.RegisterServices(services);
+        }
+
     }
 }
