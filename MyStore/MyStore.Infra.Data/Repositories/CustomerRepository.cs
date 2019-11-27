@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MyStore.Infra.Data.Repositories
 {
-    class CustomerRepository : ICustomerRepository
+   public class CustomerRepository : ICustomerRepository
     {
         private MyStoreContext _context;
         public CustomerRepository(MyStoreContext context)

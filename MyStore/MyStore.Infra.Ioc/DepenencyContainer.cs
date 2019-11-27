@@ -13,8 +13,13 @@ namespace MyStore.Infra.Ioc
     {
         public static void RegisterServices(IServiceCollection services)
         {
+            //Application services
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            
+            //Data Services
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
         }
     }
 }
