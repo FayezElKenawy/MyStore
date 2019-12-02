@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Domain", "MyStore.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Infra.Data", "MyStore.Infra.Data\MyStore.Infra.Data.csproj", "{ADB1CF69-C76F-4CA4-ADB7-7A1562089400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStore.Application", "MyStore.Application\MyStore.Application.csproj", "{DD522FB7-E715-4F70-A1A0-2709C4B99649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Application", "MyStore.Application\MyStore.Application.csproj", "{DD522FB7-E715-4F70-A1A0-2709C4B99649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStore.Infra.Ioc", "MyStore.Infra.Ioc\MyStore.Infra.Ioc.csproj", "{2DE5E5AC-2673-453F-9620-FEA6A2BDF516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStore.Infra.Ioc", "MyStore.Infra.Ioc\MyStore.Infra.Ioc.csproj", "{2DE5E5AC-2673-453F-9620-FEA6A2BDF516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
