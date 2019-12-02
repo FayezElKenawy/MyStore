@@ -18,7 +18,7 @@ namespace Mystore.MVC.Controllers
         public IActionResult Index()
         {
             CustomerViewModel model = _service.GetCustomers();
-            return View();
+            return View(model);
         }
     }
 }
